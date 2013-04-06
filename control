@@ -1,0 +1,16 @@
+Source: pyv8
+Maintainer: Joost Yervante Damad <joost@damad.be>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all-dev (>= 2.6.6-3), debhelper (>= 7), libboost-python1.49-dev, libv8-dev (>=3.8), libboost-system1.49-dev, libboost-thread1.49-dev
+Standards-Version: 3.9.1
+
+Package: python-pyv8
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Description: Python Wrapper for Google V8 Engine
+ .
+ PyV8 is a python wrapper for Google V8 engine, it act as a bridge
+ between the Python and JavaScript objects, and support to hosting
+ Google's v8 engine in a python script.
+ .
