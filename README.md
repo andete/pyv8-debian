@@ -1,3 +1,9 @@
+warning
+=======
+
+THIS WILL NOT GET UPDATED ANYMORE AS PYV8 IS NO LONGER USED BY MADPARTS STARTING AT 1.2!
+
+
 pyv8 debian/ubuntu packaging
 ============================
 
